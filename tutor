@@ -1,0 +1,14 @@
+Як додати локальні зміни до віддаленого Git-репозиторію
+Для початку треба створити вiдаллений репозiторiй
+
+git remote add origin <URL_віддаленого_репозиторію>
+
+Потiм для перевiрки 
+git remote -v
+
+Створюемо комiт
+git add .
+git commit -m "Initial commit"
+
+Завантажуемо змiни
+git push -u origin master
